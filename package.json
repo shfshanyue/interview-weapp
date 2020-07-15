@@ -52,7 +52,9 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.9.0",
+    "@graphql-codegen/introspection": "1.0.0",
     "@graphql-codegen/typescript": "1.0.0",
+    "@graphql-codegen/typescript-operations": "1.0.0",
     "@tarojs/plugin-babel": "1.3.22",
     "@tarojs/plugin-csso": "1.3.22",
     "@tarojs/plugin-sass": "1.3.22",
@@ -75,11 +77,10 @@
     "eslint-plugin-taro": "1.3.22",
     "graphql": "^14.5.8",
     "listr-update-renderer": "^0.5.0",
+    "npm-check-updates": "^7.0.1",
     "stylelint": "9.3.0",
     "stylelint-config-taro-rn": "1.3.22",
     "stylelint-taro-rn": "1.3.22",
-    "typescript": "^3.0.1",
-    "@graphql-codegen/typescript-operations": "1.0.0",
-    "@graphql-codegen/introspection": "1.0.0"
+    "typescript": "^3.0.1"
   }
 }

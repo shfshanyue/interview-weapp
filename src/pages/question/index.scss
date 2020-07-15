@@ -1,0 +1,57 @@
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/tag.scss";
+@import "~taro-ui/dist/style/components/message.scss";
+
+.question-audio {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.audio-progress {
+  height: 8px;
+  width: 100%;
+  transform: all ease 1s;
+  background-color: #385dae;
+}
+
+.question-icon-container {
+  display: flex;
+  justify-content: center;
+  background-color: #385dae88;
+  padding: 20px 0;
+}
+
+.question-icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #385DAE;
+}
+
+.question-text {
+  font-size: .9em;
+  padding: 20px 20px;
+  border-bottom: 1px solid #efefef;
+
+  &.active {
+    color: #fff;
+    background-color: #385DAE;
+    transform: all ease 1s;
+  }
+}
+
+.question-title {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-name {
+  font-size: 1.5em;
+}
